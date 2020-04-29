@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: myProjectMySql.JpaMySqlApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.733 s <<< FAILURE! - in myProjectMySql.JpaMySqlApplicationTests
+contextLoads  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [myProjectMySql.controller.CourseController] from ClassLoader [sun.misc.Launcher$AppClassLoader@42a57993]
+Caused by: java.lang.NoClassDefFoundError: LCourseService;
+Caused by: java.lang.ClassNotFoundException: CourseService
+
